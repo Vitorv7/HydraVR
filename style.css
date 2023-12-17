@@ -8,7 +8,7 @@
 body{
   background-color: #302C42;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kufam', sans-serif;
 }
 
 .header{
@@ -35,7 +35,7 @@ body{
 }
 
 .header_logo img{
-  width: 45%;
+  width: 30%;
 }
 
 .list_header{
@@ -56,4 +56,28 @@ body{
 .list_header li:hover{
   color: #C0B7E8;
   scale: 1.1;
+}
+
+.vrvirtuality{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  gap: 10%;
+}
+
+.girl-vr{
+  width: 25%;
+
+}
+
+.vrvirtuality strong{
+  color: #C0B7E8;
+}
+
+.vrvirtuality h2{
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
 }
