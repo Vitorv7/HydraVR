@@ -7,8 +7,34 @@
 
 body{
   background-color: #302C42;
-  overflow-x: hidden;
   font-family: 'Kufam', sans-serif;
+}
+
+/* IMG_BACKGROUND */
+.background{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+}
+
+.background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background::after{
+  content: '';
+
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  inset: 0;
+  opacity: 0.5;
+  background: linear-gradient(-233deg, #000 100%, rgba(0, 0, 0, 0) 65%) ;
 }
 
 .header{
@@ -58,6 +84,7 @@ body{
   scale: 1.1;
 }
 
+/* SOBRE O VR */
 .vrvirtuality{
   display: flex;
   flex-direction: row;
@@ -65,19 +92,44 @@ body{
   align-items: center;
   margin-top: 10%;
   gap: 10%;
+
+  margin: 10%;
 }
 
+/* SOBRE O VR IMG */
 .girl-vr{
   width: 25%;
-
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black;
+  /* clip-path: circle(50% at 50% 50%); */
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
+/* SOBRE O VR IMG_HOVER */
+.girl-vr:hover{
+  scale: 1.1;
+}
+
+/* SOBRE O VR STRONG */
 .vrvirtuality strong{
   color: #C0B7E8;
 }
 
+/* SOBRE O VR H2 */
 .vrvirtuality h2{
   font-weight: 700;
   font-size: 35px;
   color: white;
 }
+
+/* SOBRE O VR PARAGRAFO */
+.about-virtual{
+  color: white;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+
+
+/* INTRODUÇAO SOBRE O VR */
