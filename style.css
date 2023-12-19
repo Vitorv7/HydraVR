@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
+  text-decoration: none;
 }
 
 body{
@@ -130,6 +131,73 @@ body{
   margin-top: 5%;
 }
 
-
-
 /* INTRODUÇAO SOBRE O VR */
+.introduction{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15%;
+}
+
+.introduction p{
+  color: white;
+  border: 2px solid #C0B7E8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.introduction h2{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* SOBRE HYDRA PART 2 */
+#abouthydra{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.whyhydra img{
+  cursor: pointer;
+  width: 20%;
+  margin-left: 5%;
+
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.whyhydra img:hover{
+  scale: 1.1;
+}
+
+.whyhydra{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.whyhydra p{
+  width: 50%;
+  border: 2px solid #C0B7E8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.purchase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.purchase h2{
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  border-bottom: 1px solid #C0B7E8;
+}
