@@ -34,7 +34,7 @@ body{
   height: inherit;
   position: fixed;
   inset: 0;
-  opacity: 0.5;
+  opacity: 0.8;
   background: linear-gradient(-233deg, #000 100%, rgba(0, 0, 0, 0) 65%) ;
 }
 
@@ -159,34 +159,6 @@ body{
   margin-bottom: 10%;
 }
 
-.whyhydra img{
-  cursor: pointer;
-  width: 20%;
-  margin-left: 5%;
-
-  border-radius: 50%;
-  transition: 0.3s ease-in-out;
-}
-
-.whyhydra img:hover{
-  scale: 1.1;
-}
-
-.whyhydra{
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10%;
-}
-
-.whyhydra p{
-  width: 50%;
-  border: 2px solid #C0B7E8;
-  padding: 15px;
-  border-radius: 10px;
-}
-
 .purchase{
   display: flex;
   align-items: center;
@@ -200,4 +172,97 @@ body{
   font-size: 35px;
   font-weight: 700;
   border-bottom: 1px solid #C0B7E8;
+}
+
+.whyhydra{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.whyhydra img{
+  cursor: pointer;
+  width: 20%;
+  margin-left: 5%;
+
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+/* SOBRE HYDRA HOVER */
+.whyhydra img:hover{
+  scale: 1.1;
+}
+
+.whyhydra p{
+  width: 50%;
+  border: 2px solid #C0B7E8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* WHY BUILD HYDRA */
+.whybuildhydra{
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.whybuildhydra h2{
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.buildhydra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraphy{
+  margin-top: 5%;
+  text-align: center;
+
+  border-bottom: 2px solid #C0B7E8;
+  border-top: 2px solid #C0B7E8;
+  padding: 5px;
+  font-size: 20px;
+}
+
+/* GAMES VR */
+.vrgames{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 15px;
+  margin-top: 5%;
+}
+
+.textgames h2{
+  margin-bottom: 3%;
+}
+
+.gameimg-paragraphy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gameimg-paragraphy p{
+  width: 20%;
+}
+
+.gameimg-paragraphy img{
+  width: 20%;
 }
