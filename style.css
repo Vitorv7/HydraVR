@@ -217,6 +217,7 @@ body{
 .whybuildhydra h2{
   text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 2px solid #C0B7E8;
 
 }
 
@@ -246,23 +247,40 @@ body{
 
   margin: 15px;
   margin-top: 5%;
+
 }
 
 .textgames h2{
   margin-bottom: 3%;
 }
 
-.gameimg-paragraphy{
+.game-img-paragraphy{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  margin-top: 5%;
+
 }
 
-.gameimg-paragraphy p{
-  width: 20%;
+.game-img-paragraphy p{
+  width: 30%;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.gameimg-paragraphy img{
+.game-img-paragraphy img{
   width: 20%;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px black;
+}
+
+.game-img-paragraphy img:hover{
+  scale: 1.1;
+}
+
+.cardone{
+  color: white;
 }
